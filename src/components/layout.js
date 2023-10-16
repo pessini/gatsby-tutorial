@@ -7,12 +7,14 @@ import {
     navLinkItem,
     navLinkText
   } from './layout.module.css'
+import { StaticImage } from 'gatsby-plugin-image'
 
 console.log('container', container)
 
 const Layout = ({ pageTitle, children }) => {
     return (
         <div className={container}>
+            <StaticImage src='../images/icon.png' width={40} height={40}></StaticImage>
             <nav>
                 <ul className={navLinks}>
                     <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
