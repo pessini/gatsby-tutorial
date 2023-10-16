@@ -4,15 +4,15 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout'
 
 // Step 2: Define your component
-const AboutPage = () => {
+const ContactPage = () => {
   return (
     <main>
-      <Layout pageTitle='About me'>
-        <p>I'm the proud creator of this site, which I built with Gatsby.</p>
+      <Layout pageTitle='Contact'>
+        <p>This is the contact page.</p>
       </Layout>
     </main>
   )
 }
 
 // Step 3: Export your component
-export default AboutPage
+export default ContactPage
