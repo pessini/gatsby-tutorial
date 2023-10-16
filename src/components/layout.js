@@ -14,7 +14,7 @@ console.log('container', container)
 const Layout = ({ pageTitle, children }) => {
     return (
         <div className={container}>
-            <StaticImage src='../images/icon.png' width={40} height={40}></StaticImage>
+            <StaticImage src='../images/logo.svg' width={150} height={80}></StaticImage>
             <nav>
                 <ul className={navLinks}>
                     <li className={navLinkItem}><Link to="/" className={navLinkText}>Home</Link></li>
